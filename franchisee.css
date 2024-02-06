@@ -1,0 +1,298 @@
+/* source open sans font family link */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+/* poppings font family link */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* navbar design start */
+.navbar {
+  background-color: hsl(0, 96%, 37%);
+  width: 100%;
+  height: 80vh;
+}
+
+nav {
+  padding: 2% 5%;
+  display: flex;
+}
+nav .logo img {
+  width: 13%;
+  height: auto;
+  margin: 0auto;
+}
+nav ul {
+  text-align: right;
+  flex: 1;
+}
+nav ul li {
+  display: inline-block;
+  padding: 12px 12px;
+}
+
+nav ul li a {
+  font-size: 15px;
+  color: hsl(0, 0%, 75%);
+}
+
+.franchisee {
+  color: #fff;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+nav .btn{border-radius: 50px;
+  color: red;
+  background-color: white;
+  padding: 12px 30px;
+  margin-left: 20px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+nav .btn:hover {
+  color: hsl(0, 96%, 37%);
+}
+
+.text {
+  margin-top: 8em;
+  color: white;
+  text-align: center;
+}
+
+.text h2 {
+  font-size: 2em;
+  line-height: 0.1;
+}
+
+.text h1 {
+  font-size: 5em; padding-top: 6px;
+}
+
+/* heading */
+.heading {
+  padding: 7% 0;
+  text-align: center;
+  background-color: #ccc;
+}
+
+.flex {
+  display: flex;
+  text-align: left;
+  margin: 0 8em;
+  padding: 7%;
+  justify-content: space-between;
+}
+
+.chooses {
+  padding: 0 80px;
+}
+
+.chooses img {
+  width: 130%;
+  margin-bottom: 50px;
+}
+
+.chooses img:hover {
+  transform: scale(1.1);
+}
+
+.chooses .btn-lg {
+  border-radius: 50px;
+  color: white;
+  background-color: hsl(0, 96%, 37%);
+  padding: 12px 43px;
+  margin-left: 20px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.chooses .btn-lg:hover {
+  background-color: orange;
+}
+
+/* header */
+.header {
+  width: 100%;
+  height: 130vh;
+  background-image: url(https://png.pngtree.com/background/20230413/original/pngtree-food-burger-juicy-and-delicious-background-picture-image_2422702.jpg);
+  background-color: rgba(255, 255, 255, 0.2);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  position: sticky;
+  text-align: center;
+}
+
+.div::after {
+  content: "";
+  display: inline-flexbox;
+  width: 100%;
+  padding: 4px;
+  background-color: hsl(0, 96%, 37%);
+}
+
+.header h1 {
+  padding-top: 2em;
+  font-size: 2.6em;
+  line-height: 1;
+  padding-bottom: 30px;
+}
+
+.header h4 {
+  font-size: 2rem;
+}
+
+.header p {
+  font-size: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.4;
+  padding-top: 2em;
+}
+
+.div::after {
+  content: "";
+  display: inline-flexbox;
+  width: 100%;
+  padding: 4px;
+  background-color: hsl(0, 96%, 37%);
+}
+
+/* delivery info */
+
+.choose {
+  padding: 0 4px;
+}
+
+.choose img {
+  width: 90%;
+}
+
+.choose img:hover {
+  transform: scale(1.1);
+}
+
+.choose h1 {
+  padding: 10px 0;
+  font-size: 30px;
+}
+
+.choose p {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.choose .btn-lg {
+  border-radius: 50px;
+  color: white;
+  background-color: hsl(0, 96%, 37%);
+  padding: 12px 43px;
+  margin-left: 20px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.choose .btn-lg:hover {
+  background-color: orange;
+}
+
+/* our journey section */
+.heading {
+  padding: 12% 0;
+  text-align: center;
+  background-color: #ccc;
+}
+
+.heading h2 {
+  color: orange;
+  font-size: 30px;
+}
+
+.heading h1 {
+  padding: 10% 0;
+  font-size: 40px;
+  line-height: 1;
+  color: black;
+}
+
+.flex {
+  display: flex;
+  text-align: left;
+  margin: 0 8em;
+  padding: 7%;
+}
+
+.details {
+  margin: 0 40px;
+}
+
+.details h1 {
+  padding-bottom: 30px;
+  color: hsl(0, 96%, 37%);
+}
+
+/* container section */
+.Container {
+  display: flex;
+  padding-top: 12em;
+  background-color: hsl(0, 96%, 37%);
+}
+
+.parts {
+  margin-left: 90px;
+  margin-top: 7em;
+  color: white;
+}
+
+.parts img {
+  width: 20%;
+  padding-bottom: 20px;
+}
+
+.parts h1 {
+  font-size: 3rem;
+}
+
+.parts h2 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+.flexcolapps img {
+  width: 100%;
+  height: auto;
+  padding: 60px 20px;
+}
+
+.screenimage {
+  width: 100%;
+  margin-left: 15em;
+}
+
+/* footer section */
+.footer {
+  background-color: hsl(0, 96%, 37%);
+  box-shadow: 10px 10px 50px #ccc;
+}
+
+nav h1 {
+  color: white;
+  font-size: 1.2em;
+  margin-right: 35em;
+}
+

@@ -1,0 +1,233 @@
+/* source open sans font family link */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+/* poppings font family link */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* navbar design start */
+.navbar {
+  background-color: hsl(0, 96%, 37%);
+  width: 100%;
+  height: 154vh;
+}
+
+nav {
+  padding: 2% 3%;
+  display: flex;
+}
+nav .logo img {
+  width: 13%;
+  height: auto;
+  margin: 0auto;
+}
+nav ul {
+  text-align: right;
+  flex: 1;
+}
+nav ul li {
+  display: inline-block;
+  padding: 12px 12px;
+}
+
+nav ul li a {
+  font-size: 15px;
+  color: hsl(0, 0%, 75%);
+}
+
+.home {
+  color: #fff;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+nav .btn {
+  border-radius: 50px;
+  color: red;
+  background-color: white;
+  padding: 12px 43px;
+  margin-left: 30px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+nav .btn:hover {
+  color: darkred;
+}
+
+/* styling header */
+.flex-col {
+  display: flex;
+}
+
+.left-side {
+  margin-left: 10rem;
+  color: white;
+  margin-top: 5em;
+}
+
+.left-side h3 {
+  font-size: 1.9em;
+  padding: 10px;
+}
+
+.left-side h1 {
+  font-size: 6em;
+  line-height: 0.8;
+  padding-bottom: 20px;
+}
+
+.circle {
+  background-color: orange;
+  border-radius: 50%;
+  width: 50%;
+  height: 30vh;
+  padding-top: 2.9em;
+  padding-left: 1em;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle span {
+  font-size: 5em;
+  line-height: 0.2;
+}
+
+
+
+.flex-col h4 {
+  padding: 1em 0;
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.btn-sm /*copy nav .btn attributes, and change few stuffs according to ur choice */ {
+  border-radius: 50px;
+  color: red;
+  background-color: white;
+  padding: 15px 30px;
+  margin-left: 10em;
+  font-size: 15px;
+  font-weight: bolder;
+  transition: 0.5s;
+}
+
+.btn-sm:hover {
+  color: darkred;
+}
+
+.right-side img {
+  width: 143%;
+  transform: scale(1.1);
+  object-fit: cover;
+}
+
+/* ingredient section design */
+.text {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  background: linear-gradient(
+    to right,
+    rgba(255, 225, 225, 0),
+    rgba(192, 205, 192, 0.5),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+.container {
+  display: flex;
+  background-color: hsl(0, 96%, 37%);
+  color: white;
+  padding: 20px 0;
+  height: 100vh;
+}
+
+.list {
+  padding: 5em 50px;
+}
+
+.ingredients-list {
+  padding: 30px;
+}
+
+.ingredients-list h2 {
+  font-size: 25px;
+}
+
+.ingredients-list p {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.4;
+  padding: 2px 4px;
+  margin-bottom: 2em;
+}
+
+.lists img {
+  box-shadow: 10px 10px 50px #ccc;
+}
+
+/* container section */
+.Container {
+  display: flex;
+  padding-top: 15em;
+  background-color: hsl(0, 96%, 37%);
+}
+
+.parts {
+  margin-left: 90px;
+  margin-top: 7em;
+  color: white;
+}
+
+.parts img {
+  width: 20%;
+  padding-bottom: 20px;
+}
+
+.parts h1 {
+  font-size: 3rem;
+}
+
+.parts h2 {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.flexcolapps img {
+  width: 100%;
+  height: auto;
+  padding: 40px 20px;
+  margin-right: 10px;
+}
+
+.screen-image img {
+  width: 100%;
+  margin-right: 80px;
+}
+
+/* footer section */
+.footer {
+  background-color: hsl(0, 96%, 37%);
+  box-shadow: 10px 10px 50px #ccc;
+}
+
+nav h1 {
+  color: white;
+  font-size: 1.2em;
+  margin-right: 35em;
+}
